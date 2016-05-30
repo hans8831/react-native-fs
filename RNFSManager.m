@@ -309,6 +309,7 @@ RCT_EXPORT_METHOD(getFSInfo:(RCTResponseSenderBlock)callback)
     @"NSTemporaryDirectoryPatg": NSTemporaryDirectory(),
     @"NSLibraryDirectoryPath": [self getPathForDirectory:NSLibraryDirectory],
     @"NSFileTypeRegular": NSFileTypeRegular,
+    @"NSLibraryDirectoryPath": [self getPathForDirectory:NSLibraryDirectory],
     @"NSFileTypeDirectory": NSFileTypeDirectory
   };
 }

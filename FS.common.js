@@ -185,7 +185,8 @@ var RNFS = {
   ExternalDirectoryPath: RNFSManager.NSExternalDirectoryPath,
   TemporaryDirectoryPath: RNFSManager.NSTemporaryDirectoryPath,
   LibraryDirectoryPath: RNFSManager.NSLibraryDirectoryPath,
-  PicturesDirectoryPath: RNFSManager.NSPicturesDirectoryPath
+  PicturesDirectoryPath: RNFSManager.NSPicturesDirectoryPath,
+  ApplicationSupportDirectory:RNFSManager.NSApplicationSupportDirectory,
 };
 
 module.exports = RNFS;
